@@ -1,0 +1,27 @@
+<!--user.wxml-->
+<view class="heade" style="background-image: url('../../images/userbackground_icon.png')">
+<!-- <image src="../../images/oneself_avater.png"style="margin-top:20px"></image> -->
+<button wx:if="{{!userInfo}}" bindtap="login"style="position: relative; left: 2rpx; top: 946rpx;background-color:#009186; width:150px">授权登录</button>
+<view wx:else class="root">
+  
+  <image class="touxiang" src="{{userInfo.avatarUrl}}"></image>
+  <text class="nicheng"style="font-size:18px">{{userInfo.nickName}}</text>
+  <button bindtap="loginOut" style="position: relative; left: 2rpx; top: 658rpx; border-radius: 5px; background-color: #009186; width: 150px">退出登录</button>
+</view>
+</view>
+
+    <view class="list-wrapper">
+      <view wx:if="{{menuitems[curIndex]}}">
+        <block wx:for="{{menuitems[curIndex]}}" wx:key="item.id">
+        <navigator url="{{item.icon}}" class="list-item" hover-class="list-item_active">
+          <view class='item'>
+            <image class='item-image' src='{{item.icon}}'></image>
+            <text class="item-text" style="margin-left: 10px;">{{item.title}}</text>
+             <text class='item-array'>></text> 
+        
+          </view>
+          <view class="div-line"></view>
+        </navigator>
+    </block>
+  </view>
+    </view>

@@ -1,0 +1,29 @@
+<view class="container">
+<view class="ar_coverpath">
+    <image src="{{coachdetailItem.c_img}}" mode="aspectFill"></image>
+</view>
+<view class="ar_cont">
+    <view class="ar_cont_h1">【教练简介】</view>
+         <view>   
+                <text> 姓名：{{coachdetailItem.c_title}}  </text>
+                <!-- <text decode="{{true}}"> &emsp; &emsp; &emsp; &emsp;年龄：{{coachdetailItem.c_age}}</text>  -->
+                <text style="margin-left: 80px; line-height: 1em;"> 年龄{{coachdetailItem.c_age}}</text>
+         </view>
+         <view>
+            <text >  电话号：{{coachdetailItem.c_phone}}   </text> 
+         </view>
+         <view>
+            <text> 资料：{{coachdetailItem.c_message}}   </text> 
+         </view>
+         <view>
+            <image src="{{coachdetailItem.c_image}}" mode="aspectFill"></image>
+         </view>
+        
+    <view class="ar_sevice_item">
+        <view class="section_book" bindtap="bookTap" >
+            <text>预约</text>
+        </view>
+    </view>
+</view>
+
+</view>

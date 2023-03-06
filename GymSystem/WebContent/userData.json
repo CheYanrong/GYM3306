@@ -1,0 +1,25 @@
+{
+    "uid": "1", 
+    "nickname": "山炮", 
+    "name": "张三", 
+    "phone": "13833337998", 
+    "avatar": "../../images/avatar.png", 
+    "addrs": [
+        {
+            "addrid": "1", 
+            "name": "张三", 
+            "phone": "13812314563", 
+            "province": "北京", 
+            "city": "直辖市", 
+            "addr": "朝阳区望京悠乐汇A座8011"
+        }, 
+        {
+            "addrid": "2", 
+            "name": "李四", 
+            "phone": "13812314563", 
+            "province": "北京", 
+            "city": "直辖市", 
+            "addr": "朝阳区望京悠乐汇A座4020"
+        }
+    ]
+}

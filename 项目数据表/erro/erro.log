@@ -1,0 +1,16 @@
+
+
+Job started at Mon Oct  3 17:19:08 2022
+ERROR: File not found...
+
+ERROR: Import aborted...
+
+Job started at Mon Oct  3 17:19:35 2022
+
+
+Job started at Mon Oct  3 17:24:41 2022
+
+ERROR: 1452, Cannot add or update a child row: a foreign key constraint fails (`gymsql`.`coach`, CONSTRAINT `coach_ibfk_1` FOREIGN KEY (`d_id`) REFERENCES `detail` (`d_id`))
+Table:Sheet1$
+Sql:REPLACE INTO `gymsql`.`coach` (`c_id` ,`c_title` ,`c_sale` ,`c_price` ,`c_img` ,`c_message` ,`c_distance` ,`d_id`) VALUES (11.0, '钟离', 10.0, 12.0, 'http://localhost/images/coach_01.jpg', '已获得高级健身教练证书', 100.0, 10.0),(22.0, '凝光', 10.0, 12.0, 'http://localhost/images/coach_02.png', '已获得高级健身教练证书', 200.0, 20.0),(33.0, '芭芭拉', 10.0, 12.0, 'http://localhost/images/coach_03.jpg', '已获得高级健身教练证书', 150.0, 30.0),(44.0, '逍宮', 10.0, 12.0, 'http://localhost/images/coach_04.png', '已获得高级健身教练证书', 250.0, 40.0)
+ERROR: Import aborted...

@@ -1,0 +1,27 @@
+[
+        {
+            "id": 1, 
+            "icon": "../../images/nav_icon_01.png",
+            "title":"推荐4"
+        }, 
+        {
+            "id": 2, 
+            "icon": "../../images/nav_icon_02.png", 
+            "title": "美甲"
+        }, 
+        {
+            "id": 3, 
+            "icon": "../../images/nav_icon_03.png", 
+            "title": "美容"
+        }, 
+        {
+            "id": 4, 
+            "icon": "../../images/nav_icon_04.png", 
+            "title": "美发"
+        }, 
+        {
+            "id": 5, 
+            "icon": "../../images/nav_icon_05.png", 
+            "title": "美睫"
+        }
+    ]
